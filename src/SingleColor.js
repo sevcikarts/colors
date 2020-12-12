@@ -6,7 +6,6 @@ const SingleColor = ({rgb, weight, hexColor}) => {
     
   const [alert, setAlert] = useState(false)
   const bcg = rgb.join(',')
-
   const hexValue = `#${hexColor}`
 
 

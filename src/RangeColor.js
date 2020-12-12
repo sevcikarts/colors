@@ -14,7 +14,7 @@ const RangeColor = ({setList}) => {
    useEffect(() => {
     const color = rgbToHex(colors.red,colors.green,colors.blue)
    setList(new Values(color).all(10))
-   }, [colors.red,colors.green,colors.blue])
+   }, [colors.red,colors.green,colors.blue,setList])
 
  const handleChange = (e) =>{
         const value = e.target.value;

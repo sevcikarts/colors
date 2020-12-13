@@ -22,13 +22,14 @@ body {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0 auto;
+  margin-top: 1em;
   padding: 0;
+  border: 2em;
 }
 .singleColor {
   justify-content: center;
   width: 8em;
-  height:8em;
+  height: 8em;
   padding: 1em;
 }
 .rangeColor {
@@ -106,18 +107,45 @@ label {
   margin-top: 1em;
 }
 
-.alert{
+.alert {
   font-size: 0.8em;
   padding: 0.1em;
 }
 
-p.sec{
+p.sec {
   margin-top: 1em;
 }
 .primary .oneColor:nth-child(4) {
   border-color: white;
-  border-style:  solid
-  
-  
- 
+  border-style: solid;
 }
+@media (max-width: 967px) {
+
+  .singleColor {
+      justify-content: center;
+      font-size: 1em;
+      width: 6em;
+      height: 8em;
+      padding: 1em;
+    }
+  
+    .color-value{
+      font-size: .7em;
+    }
+  }
+@media (max-width: 752px) {
+
+.singleColor {
+    justify-content: center;
+    font-size: .75em;
+    width: 5em;
+    height: 8em;
+    padding: 1em;
+  }
+
+  .color-value{
+    font-size: .7em;
+  }
+}
+
+

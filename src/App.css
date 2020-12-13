@@ -119,44 +119,62 @@ p.sec {
   border-style: solid;
 }
 @media (max-width: 967px) {
-
   .singleColor {
-      justify-content: center;
-      font-size: 1em;
-      width: 6em;
-      height: 8em;
-      padding: 1em;
-    }
-  
-    .color-value{
-      font-size: .7em;
-    }
-  }
-@media (max-width: 752px) {
-
-.singleColor {
-  
     justify-content: center;
-    font-size: .75em;
-    width: 4rem;
-    height: 8rem;
+    font-size: 1em;
+    width: 6em;
+    height: 8em;
     padding: 1em;
   }
 
-  .color-value{
-    font-size: .7em;
+  .color-value {
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 752px) {
+  .colors {
+    margin: 0 auto;
+  }
+
+  .singleColor {
+    justify-content: center;
+    font-size: 1em;
+   
+    height: 5em;
+    padding: 1em;
+  }
+
+  .oneColor{
+    justify-content: center;
+    width: 100%;
+   
+  }
+
+  .color-value {
+    font-size: 1em;
   }
 
   .colorsbox {
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
-
- 
-
- 
+ .percent-value{
+   display: none;
+ }
+  .color-value{
+    text-align: center;
+    font-size: .5em;
+    padding: 0;
+    margin: 0;
+  }
+  .singleColor {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 5em;
+    padding: 1em;
+  }
 }
-
-

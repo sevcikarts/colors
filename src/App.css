@@ -12,7 +12,6 @@ body {
   text-align: center;
 }
 .colors {
-  padding: 1.5em;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -136,16 +135,28 @@ p.sec {
 @media (max-width: 752px) {
 
 .singleColor {
+  
     justify-content: center;
     font-size: .75em;
-    width: 5em;
-    height: 8em;
+    width: 4rem;
+    height: 8rem;
     padding: 1em;
   }
 
   .color-value{
     font-size: .7em;
   }
+
+  .colorsbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+ 
+
+ 
 }
 
 

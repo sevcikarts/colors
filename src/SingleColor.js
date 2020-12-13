@@ -18,7 +18,7 @@ const SingleColor = ({rgb, weight, hexColor}) => {
 
 
     return (
-        <div>
+        <div className="oneColor">
              <article
       className="singleColor"
       style={{ backgroundColor: `rgb(${bcg})` }}
@@ -28,8 +28,7 @@ const SingleColor = ({rgb, weight, hexColor}) => {
       }}
     >
       <p className='percent-value'>{weight}%</p>
-      <p className='color-value'>{hexValue}</p>
-      {alert && <p className='alert'>copied to clipboard</p>}
+      {alert ? <p className='alert'>copied to clipboard</p>: <p className='color-value'>{hexValue}</p>}
     </article>
         </div>
     )

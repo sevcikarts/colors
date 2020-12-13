@@ -8,7 +8,7 @@ function App() {
     <div className="App">
        
       <header> 
-       <h1>color generator</h1>
+       <h1 className="head">color choice</h1>
          <ColorBox/>
       </header>
     </div>

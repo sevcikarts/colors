@@ -160,7 +160,7 @@ p.sec {
    display: none;
  }
   .color-value{
-    display: inline;
+    display: none;
     margin-top: 1em;
     font-size: 0.8em;
   }
